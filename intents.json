@@ -1,0 +1,160 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "showAll": false,
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Thank you for contact us let me know how may i help you",
+                "please let us know how we can help you"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "showAll": false,
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "showAll": false,
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "showAll": false,
+            "patterns": [
+                "What is the delivery time",
+                "When can i except my delivery?"
+                
+            ],
+            "responses": [
+                "Depedning upon the destination delivery time is 2-5 working days"
+            ]
+        },
+        {
+            "tag": "name",
+            "showAll": false,
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Joana.",
+                "I'm Joana!",
+                "Just call me as Joana"
+            ]
+        },
+        {
+            "tag": "help",
+            "showAll": false,
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "showAll": false,
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "showAll": false,
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "availbily dress",
+            "showAll": false,
+            "patterns": [
+                "show availbily dresses"
+            ],
+            "responses": [
+                "Men",
+                "Women"
+        
+            ]
+        },
+        {
+            "tag": "shirt",
+            "showAll": true,
+            "patterns": [
+                "Tshirt",
+                "tshirt"
+                
+            ],
+            "responses": [
+                {
+                    "text": "Half Hand T-shirt",
+                    "link": "https://tunii.store/HalfHandTshirt"
+                },
+                {
+                    "text": "Collar T-shirt",
+                    "link": "https://tunii.store/CollarTshirt"
+                },
+                {
+                    "text": "Round Neck T-shirt",
+                    "link": "https://tunii.store/RoundNeck"
+                },
+                {
+                    "text": "V-neck T-shirt",
+                    "link": "https://tunii.store/VNeck"
+                }
+            ]
+        }
+    ]
+}

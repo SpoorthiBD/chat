@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="layout-view"></div>
+    <div class="chatbot">
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="chat-message">
+                <p class="bot-message">Welcome to our TUNI store!</br> How can I assist you today?</p>
+                <button class="chatbot-button" onclick="displaySelectedButton('https://tunii.store/TrackOrder')">An item I ordered</button></br>
+               <button class="chatbot-button" onclick="displaySelectedButton('https://tunii.store/')">More info on product or return policy</button>
+               <div id="display-area"></div>
+
+
+
+            </div>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
